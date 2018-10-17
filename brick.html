@@ -1,11 +1,10 @@
 <!--
-sink.html
-Tags used: <head>, <body>, <h1>, <h2>, <meta>, <link>, <title>, <base>, <header>,
-<main>, <br>, <form>, <section>, <img>, <p>, <table>, <colgroup>, <col>, <tbody>,
-<tfoot>, <thead>, <tr>, <td>, <th>, <hr>, <video>, <embed>, <ul>, <li>, <strong>,
-<button>, <details>, <summary>, <input>, <meter>, <label>, <caption>, <figure>,
-<figcaption>, <textarea>, <datalist>, <select>, <option>, <pre>, <dialog>
--->
+brick.html
+Tags used: <head>, <meta>, <link>, <title>, <header>, <main>, <section>, <img>, <p>,
+<table>, <colgroup>, <ul>, <body>,<pre>, <h1>, <h2>, <tr>, <td>,<details>, <summary>,
+<option>, <input>, <meter>, <li>, <label>, <caption>, <col>, <video>, <embed>,
+<figcaption>, <b>, <u>, <strong>, <button>, <em>, <tbody>, <th>, <figure>, <hr>,
+<textarea>, <datalist>, <del>, <select>-->
 
 <!--Author: Jeremy Pham-->
 
@@ -13,19 +12,19 @@ Tags used: <head>, <body>, <h1>, <h2>, <meta>, <link>, <title>, <base>, <header>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sink Page</title>
+    <title>Brick Page</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="assets/img/icon.png">
-    <base href="sink.html"/>
+    <base href="brick.html"/>
   </head>
   <a name="top"></a>
   <body>
     <header>
-      <h1>Kitchen Sink</h1>
+      <h1>Cow Brick</h1>
       <p>
-        Last Updated: January 10, 2018<br>
+        Last Updated: October 6, 2018<br>
         Rating:
-        <meter value="3" max="5"></meter>
+        <meter value="4" max="5"></meter>
 
       </p>
         <form>Rate:
@@ -56,13 +55,15 @@ Tags used: <head>, <body>, <h1>, <h2>, <meta>, <link>, <title>, <base>, <header>
     <main>
       <section>
         <figure>
-          <img src="assets/img/kitchen-sink.jpg">
-          <figcaption>A Sink that Spawns Used Dishes</figcaption>
+          <img src="assets/img/cow-brick.jpg">
+          <figcaption>Get the smooth feeling with this powerful brick</figcaption>
         </figure>
         
-        <p>Last Price: $100</p>
+        <p>Last Price: <del>$100</del></p>
+        <p>Now <em>ONLY <u><strong>$50!</strong></u></em></p>
+        <p>You saved <b>50.0%!</b></p>
         Style:<select>
-          <option value="tidy">Tidy</option>
+          <option value="Passion Red">Passion Red"</option>
         </select>
         <br>Qty:<input type="text" value="1">
         
@@ -78,60 +79,54 @@ Tags used: <head>, <body>, <h1>, <h2>, <meta>, <link>, <title>, <base>, <header>
           </summary>
           <hr>
           <table>
-            <caption>The detail might vary on models</caption>
-            <thead>
-
-            </thead>
-            <colgroup>
-                  <col span="1" align="center" style="background-color:white">
-            </colgroup>
-            <tbody>
-              <tr>
-                <th>Depth:</th>
-                <td>9"</td>
-              </tr>
-              <tr>
-                <th>Gauge:</th>
-                <td>18</td>
-              </tr>
-              <tr>
-                <th>Size of Sink Base:</th>
-                <td>30"</td>
-              </tr>
-              <tr>
-                <th>Material:</th>
-                <td>Type 304 Stainless Steel</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td>End of Table</td>
-              </tr>
-            </tfoot>
+            <b>
+              <caption>The detail might vary on models</caption>
+              <colgroup>
+                <col span="2" style="font-weight:bold">
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>Size:</th>
+                  <td>20 x 40 x 60 cm</td>
+                </tr>
+                <tr>
+                  <th>Hardness:</th>
+                  <td>Strong</td>
+                </tr>
+                <tr>
+                  <th>Weight:</th>
+                  <td>8 ounces</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>End of Table</th>
+                </tr>
+              </tfoot>
+            </b>
           </table>
-        </details>
-     
+        </details>            
       </section>
       
       <hr>
       
       <section>
-        <h2>A Sink that Never Stuck</h2>
+        <h2>What Does The Cow Say:</h2>
         <hr>
-        <embed src="assets/videos/sink.mp3">
+        <embed src="assets/videos/cow.mp3">
         <hr>
       </section>
       <section>
-        <h2>Live Show:</h2>
+        <h2>How Is It Made?</h2>
         <video width="400" controls>
-          <source src="assets/videos/sink.mp4" type="video/mp4">
+          <source src="assets/videos/brick.mp4" type="video/mp4">
         </video>
        </section>
       <section>
         <hr>
-        <h2>Installation Guide:</h2>
+        <h2>Manufacturer Fact Sheet</h2>
         <hr>
-        <embed src="assets/img/sink_spec.pdf" width="800" height="800"/>
+        <embed src="assets/img/brick_spec.pdf" width="800" height="800"/>
         <hr>
       </section>
       <dialog open>
@@ -141,9 +136,9 @@ Tags used: <head>, <body>, <h1>, <h2>, <meta>, <link>, <title>, <base>, <header>
         <br>Key Word:
         <input list="keywords" type="text"/>
         <datalist id="keywords">
-          <option value="Sink">
-          <option value="Faucet">
-          <option value="Drain">
+          <option value="Cow">
+          <option value="Brick">
+          <option value="Red">
         </datalist>
         <button>Submit</button>
       </dialog>
