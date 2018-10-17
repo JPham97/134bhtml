@@ -1,0 +1,140 @@
+<!--
+sink.html
+Tags used: <head>, <body>, <h1>, <h2>, <meta>, <link>, <title>, <base>, <header>,
+<main>, <br>, <form>, <section>, <img>, <p>, <table>, <colgroup>, <col>, <tbody>,
+<tfoot>, <thead>, <tr>, <td>, <th>, <hr>, <video>, <embed>, <ul>, <li>, <strong>,
+<button>, <details>, <summary>, <input>, <meter>, <label>, <caption>, <figure>,
+<figcaption>, <textarea>, <datalist>, <select>, <option>, <pre>, <dialog>
+-->
+
+<!--Author: Jeremy Pham-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sink Page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+    <base href="sink.html"/>
+  </head>
+  <a name="top"></a>
+  <body>
+    <header>
+      <h1>Kitchen Sink</h1>
+      <p>
+        Last Updated: January 10, 2018<br>
+        Rating:
+        <meter value="3" max="5"></meter>
+
+      </p>
+        <form>Rate:
+              <input type="radio">
+              <label>0</label>
+              <input type="radio">
+              <label>1</label>
+              <input type="radio">
+              <label>2</label>
+              <input type="radio">
+              <label>3</label>
+              <input type="radio">
+              <label>4</label>
+              <input type="radio">
+              <label>5</label>
+        </form>
+      <hr>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="order.html">Your Orders</a></li>
+          <li>Search for More:
+            <input type="text">
+            <button>Search</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <figure>
+          <img src="assets/img/kitchen-sink.jpg">
+          <figcaption>A Sink that Spawns Used Dishes</figcaption>
+        </figure>
+        
+        <p>Last Price: $100</p>
+        Style:<select>
+          <option value="tidy">Tidy</option>
+        </select>
+        <br>Qty:<input type="text" value="1">
+        
+        <button>Check Out!</button>
+
+
+      </section>
+      <hr>
+      <section>
+        <details>
+          <summary>
+          </summary>
+        </details>
+        <h2>Item Summery</h2>
+        <hr>
+        <table>
+          <thead>
+            <tr>
+              <td colspan="2" align="center">
+                The detail might vary on models
+              </td>
+            </tr>
+          </thead>
+          <colgroup>
+                <col span="1" align="center">
+          </colgroup>
+          <tbody>
+            <tr>
+              <th>Depth:</th>
+              <td>9"</td>
+            </tr>
+            <tr>
+              <th>Gauge:</th>
+              <td>18</td>
+            </tr>
+            <tr>
+              <th>Size of Sink Base:</th>
+              <td>30"</td>
+            </tr>
+            <tr>
+              <th>Material:</th>
+              <td>Type 304 Stainless Steel</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>End of Table</td>
+            </tr>
+          </tfoot>
+        </table>     
+      </section>
+      
+      <hr>
+      
+      <section>
+        <h2>A Sink that Never Stuck</h2>
+        <hr>
+        <address>
+          Mr. Web<br>
+          2018 Shinny Road<br>
+          Apt 1234<br>
+          Moon, Galaxy 98765
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <h4>Goal</h4>
+      <blockquote>"Sincerely Serving Our Customers"</blockquote>
+      <p>Copyright &copy; 2018 <sub>UCSD</sub></p>
+      <address>Address: Triton Coporation</address>
+      <mark><a href="#top">All the way to the top</a></mark>
+    </footer>
+  </body>      
+</html>
